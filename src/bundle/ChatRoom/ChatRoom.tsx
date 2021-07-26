@@ -52,7 +52,6 @@ const ChatRoon: FC<IndexProps> = ({ location }) => {
     const getUserRecentMessages = async () => {
         let url = constants.BE_URL + "api/messages/getUserRecentMessages";
         const data = await axios.get(url);
-        console.log(data.data);
         setRecentMessages(data.data);
         scrollToBottom();
     }
