@@ -1,0 +1,116 @@
+.Login {
+    background-color: rgb(239 237 233);
+    width           : calc(100% - 60px);
+    height          : calc(100% - 60px);
+    overflow        : hidden;
+    padding         : 30px;
+    display         : flex;
+    flex-direction  : column;
+}
+
+.header {
+    font-weight : 600;
+    font-size   : 24px;
+    line-height : 24px;
+    align-items : center;
+    color       : rgb(181 204 91);
+    width       : 208px;
+    margin-right: auto;
+    margin-left : auto;
+    text-align  : center;
+}
+
+.logo {
+    width     : 200px;
+    text-align: center;
+    margin    : 0 auto 30px auto;
+}
+
+.lane-name {
+    background-color: #303237;
+    color           : #fff;
+}
+
+.login-btn {
+    background   : #c9e265;
+    box-shadow   : 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding      : 10px 15px 10px 15px;
+    border-radius: 2px;
+    width        : 100px;
+    height       : 36px;
+    border-style : none;
+    margin-top   : 10px;
+    margin-right : auto;
+    margin-left  : auto;
+}
+
+.password-container {
+    align-self: center;
+    margin    : spacing(1);
+}
+
+#demo-simple-select-filled {
+    color        : #fff;
+    border-radius: 2px;
+}
+
+#demo-simple-select-outlined-label {
+    color: rgb(0, 0, 0) !important;
+}
+
+#demo-simple-select-filled-label {
+    width        : 90%;
+    border-radius: 2px;
+}
+
+.MuiInputLabel-filled {
+    color: rgba(255, 255, 255, 0.42) !important;
+
+}
+
+.MuiFormControl-root,
+.makeStyles-formControl-16 {
+    margin-right: auto !important;
+    margin-left : auto !important;
+}
+
+.MuiInputLabel-formControl {
+    left                : unset !important;
+    padding-inline-start: 25px !important;
+}
+
+
+.MuiFilledInput-underline:before,
+.MuiFilledInput-underline:after {
+    border-bottom: 0px !important;
+}
+
+.MuiSelect-icon {
+    position: unset !important;
+    color   : #303237 !important;
+}
+
+.MuiSelect-filled.MuiSelect-filled {
+    padding-right: 0px;
+    color        : rgba(255, 255, 255, 0.42);
+}
+
+.MuiFilledInput-root {
+    width: 173px;
+}
+
+.MuiSelect-filled.MuiSelect-filled {
+    padding-right: 0px !important;
+}
+
+.MuiSelect-select.MuiSelect-select {
+    padding-right: 24px !important;
+}
+
+.MuiInputBase-input {
+    color: rgb(1 1 1) !important;
+}
+
+.MuiFilledInput-input {
+    padding: 27px 24px 10px !important;
+}

@@ -1,0 +1,15 @@
+.App {
+  height     : 100vh;
+  user-select: none;
+}
+
+*,
+*:focus,
+*:hover {
+  outline: none;
+}
+
+.row {
+  display       : flex;
+  flex-direction: row;
+}
